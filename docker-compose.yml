@@ -12,7 +12,7 @@ services:
       - ./nginx.conf:/etc/nginx/nginx.conf
     networks:
       - reverse-proxy
-
+  
   jenkins:
     image: jenkins/jenkins:lts
     environment:
